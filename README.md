@@ -8,32 +8,26 @@ showcase skills learned in Phase 3 of Flatiron School's Software Engineering Pro
 yourStreet is an application that allows a user to keep track of their neighbors. 
 
 
-
-
 #### Application Features
-User can view and edit their own household
+User can create, read, and update households through API
 
-User can select and view a neighborhood
+User can read a neighborhood through API
 
-User can select and view a Household, including its' members and locations 
+User can read a Household, including its members and locations through API
 
-User can add, edit or delete Household Members
+User can create, read, update, or delete Household Members through API
 
-User can delete or add Homes
+User can create, or delete Locations through API
 
 ## Requirements
-ruby 3.1.1
-
-sqlite3 3.28
+- ruby 3.1.1
+- sqlite3 3.28
 
 ## Get started
-Fork and clone
-
-Bundle install
-
-run bundle exec rake db:migrate db: seed
-
-run bundle exec rake server
+1. Fork and clone
+1. Bundle install
+1. run bundle exec rake db:migrate db: seed
+1. run bundle exec rake server
 
 If you haven't already, follow directions from the project's [frontend](https://github.com/mariareedstrom/phase-3-project-frontend).
 
@@ -50,10 +44,3 @@ If you haven't already, follow directions from the project's [frontend](https://
 [create-react-app](https://create-react-app.dev/)
 
 [react router](https://reactrouter.com/)
-
-
-
-
-
-
-
