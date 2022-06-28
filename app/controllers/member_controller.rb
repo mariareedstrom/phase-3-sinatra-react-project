@@ -2,8 +2,17 @@ class MemberController < ApplicationController
 
   get '/members' do
     members = Member.all
+
     if params[:household_id]
       members = members.where(household_id: params[:household_id])
+    end
+
+    if params[:first_name]
+      members = members.where(first_name: params[:first_name])
+    end
+
+    if params[:last_name]
+      members = members.where(last_name: params[:last_name])
     end
 
     members.to_json
